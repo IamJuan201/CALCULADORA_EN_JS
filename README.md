@@ -56,7 +56,6 @@ CALCULADORA EN JAVASCRIPT
 ## Usos
 - Realizar operaciones matemáticas básicas de forma rápida.
 - Visualizar paso a paso la operación antes de obtener el resultado.
-- Aprender el uso básico de JavaScript con eventos y manipulación del DOM.
 
 ## Autores
 ### Juan Rangel
