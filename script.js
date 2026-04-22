@@ -18,6 +18,8 @@ const btnDivision = document.getElementById('btnDivision');
 
 const igual = document.getElementById('igual');
 const ac = document.getElementById('ac');
+const de = document.getElementById('de');
+const punto = document.getElementById('punto');
 
 let operacion = "";
 
@@ -90,6 +92,16 @@ btnMultiplicacion.addEventListener('click', function() {
 btnDivision.addEventListener('click', function() {
     operacion += "/";
     pantalla.value = operacion;
+});
+
+punto.addEventListener('click', function() {
+    operacion += ".";
+    pantalla.value = operacion;
+});
+
+de.addEventListener('click', function() {
+    let display = document.getElementById('pantalla');
+    pantalla.value = pantalla.value.slice(0, -1);
 });
 
 igual.addEventListener('click', function() {
