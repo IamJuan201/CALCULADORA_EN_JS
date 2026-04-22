@@ -6,8 +6,8 @@
 
 Este proyecto es una calculadora básica desarrollada en JavaScript que permite realizar operaciones matemáticas simples como suma, resta, multiplicación y división.
 El usuario puede ingresar números y operadores mediante botones, visualizando en pantalla la operación en tiempo real.
-Al presionar el botón igual (=), el sistema muestra la operación completa junto con su resultado en la misma línea.
-Además, cuenta con una opción para limpiar la pantalla (AC), eliminando toda la operación ingresada.
+Al presionar el botón igual (=) el sistema muestra la operación completa junto con su resultado en la misma línea.
+Además, cuenta con una opción (AC) para limpiar la pantalla y eliminar toda la operación ingresada.
 
 ## Funcionalidades
 ### Operaciones básicas
