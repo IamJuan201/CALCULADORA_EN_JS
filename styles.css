@@ -1,52 +1,33 @@
-body { 
-    text-align: center; 
-    margin: 0; 
-    background: #dfe0e4; 
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-    height: 100vh;
+body {
+    font-family: Arial;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
 
-#calculadora { 
-    max-width: 360px; 
-    background-color: #0d1b2a; 
-    border-radius: 10px; 
-    padding: 20px; 
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19);
+.calculadora {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
 }
 
-#pantalla { 
-    width: 100%; 
-    height: 50px; 
-    font-size: 20px; 
-    text-align: right; 
-    margin-bottom: 10px; 
-    padding: 20px; 
-    border-radius: 5px; 
-    color: #e0e1dd; 
-    background-color: rgba(13, 27, 42, 0.3); 
-    border: none; 
-    box-sizing: border-box;
+#pantalla {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-align: right;
 }
-.operacion { 
-    color: #e5e6ec;
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    gap: 10px;
 }
-#ac { 
-    color: #e03737;
-}
-.operacion_igual { 
-    width: calc(50% - 10px);
-}
-button { 
-    width: calc(25% - 10px); 
-    height: 50px; 
-    font-size: 20px; 
-    margin: 10px 5px; 
-    border: none; 
-    border-radius: 5px; 
-    float: left; 
-    background-color: rgba(13, 27, 42); 
-    color: #e0e1dd; 
-    box-shadow: -1px 1px 30px -5px rgba(0, 0, 0, 0.2);
+
+button {
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
 }
